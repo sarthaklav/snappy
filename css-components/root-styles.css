@@ -1,0 +1,17 @@
+
+@import "button.css";
+@import "docs.css";
+
+
+:root {
+    --zero-pixels: 0px;
+    --zero-percent: 0%;
+    --main-color: #FFE5B4;
+    --secondary-color: #E7E5E4;
+    --btn-radius:1rem;
+}
+
+
+
+
+

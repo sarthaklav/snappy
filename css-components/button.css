@@ -1,0 +1,18 @@
+
+
+
+
+.btn{
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: .5rem 1rem;
+
+}
+
+.btn-primary{
+    background-color: var(--main-color);
+
+    border-radius: var(--btn-radius);
+  
+    /* width: 10rem; */
+}

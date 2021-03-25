@@ -1,0 +1,42 @@
+
+
+
+.body {
+    display: grid;
+    grid-template-areas: "head head"
+        "aside main"
+        "footer footer";
+    grid-template-rows: 1fr 6fr 1fr;
+    grid-template-columns: 1fr 5fr;
+    margin: var(--zero-percent);
+
+}
+
+.header {
+
+    grid-area: head;
+    background-color: var(--main-color);
+}
+
+.aside {
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    max-width: var(--sidebar-width);
+    margin: 2.5rem;
+
+
+}
+
+.main {
+    grid-area: main;
+
+}
+
+.footer {
+    grid-area: footer;
+    background-color: var(--secondary-color);
+
+}
