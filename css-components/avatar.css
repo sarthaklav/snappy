@@ -1,0 +1,31 @@
+:root{
+    --extra-small-percent:5%;
+    --small-percent:10%;
+    --medium-percent:15%;
+    --large-percent:20%;
+    --extra-large-percent: %;
+
+}
+
+.avatar-small{
+   
+    width: var(--small-percent);
+    height: var(--small-percent);
+}
+.avatar-medium{
+    width: var(--medium-percent);
+    height: var(--medium-percent);
+}
+.avatar-large{
+   
+    width: var(--large-percent);
+    height: var(--large-percent);
+}
+.avatar-box{
+    border-radius: 2rem;
+    width: 100%;
+}
+.avatar-round{
+    border-radius: 50%;
+    width: 100%;
+}

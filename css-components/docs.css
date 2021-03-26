@@ -1,6 +1,5 @@
 
 
-
 .body {
     display: grid;
     grid-template-areas: "head head"
@@ -9,15 +8,12 @@
     grid-template-rows: 1fr 6fr 1fr;
     grid-template-columns: 1fr 5fr;
     margin: var(--zero-percent);
-
+    /* max-width: 500px    ; */
 }
-
 .header {
-
     grid-area: head;
     background-color: var(--main-color);
 }
-
 .aside {
     grid-area: aside;
     display: flex;
@@ -26,17 +22,24 @@
     justify-content: space-between;
     max-width: var(--sidebar-width);
     margin: 2.5rem;
-
+    height: 600px;
+    /* position: fixed; */
 
 }
-
 .main {
     grid-area: main;
-
 }
-
+.main-container{
+  
+}
+.main-container-heading{
+}
+.main-container-components{
+    display: flex;
+    justify-content:space-evenly;
+ 
+}
 .footer {
     grid-area: footer;
     background-color: var(--secondary-color);
-
 }
