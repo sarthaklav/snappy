@@ -1,7 +1,7 @@
 @import "avatar.css";
 @import "button.css";
 @import "docs.css";
-
+@import "alert.css";
 
 :root {
     --zero-pixels: 0px;
@@ -9,7 +9,6 @@
     --main-color: #164A41;
     --primary-color:#4D774E;
     --secondary-color: #E7E5E4;
-    /* --btn-radius:1rem; */
     --small-padding:2rem;
 }
 

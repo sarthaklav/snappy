@@ -1,20 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SNAPPY</title>
     <link rel="stylesheet" href="/css-components/root-styles.css ">
-    <script src="../index.js" type="text/javascript"> 
-   
-    </script>
- 
+
 </head>
-
-
-<body class="body">
+<body class="body" >
     <header class="header header-navbar">
         <h1>SNAPPY </h1>
         <a href="../index.html">Go to Home page </a>
@@ -74,18 +68,16 @@
             <h3>Alert</h3>
             <div class="main-container-components">
                 <div>
-                    <button type="button">Trigger alert</button>
-                    <p class="alert">The alert will trigger when the button is pressed.</p>
+                    <button id="show-alert-timeout">show alert</button>
+                    <p id="alert-message-timeout" class="hidden-alert">Your log in session will expire in 2 minutes</p>
                 </div>
             </div>
-
-        </div>
+        </div> 
         <div>
             <h3>Badge</h3>
         </div>
         <div class="main-container">
             <h3>Button</h3>
-
             <div class="main-container-components">
                 <button class="btn btn-primary">Primary </button>
                 <button class="btn btn-secondary">Secondary </button>
@@ -94,20 +86,14 @@
                 <button class="btn btn-warning">Warning</button>
                 <button class="btn btn-light">Light</button>
                 <button class="btn btn-dark">Dark</button>
-
-
-
-                <a class="link link-primary" href="link here"> Primary Link </a>
-
-                <a class="link link-secondary" href="link here">Secondary link</a>
+                <a class="link link-primary" href="#"> Primary Link </a>
+                <a class="link link-secondary" href="#">Secondary link</a>
             </div>
-
-
         </div>
     </main>
     <footer class="footer">
         This is the footer
+        <script src="../index.js" type="text/javascript"></script>
     </footer>
 </body>
-
 </html>
