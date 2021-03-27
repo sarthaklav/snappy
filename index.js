@@ -1,0 +1,1 @@
+console.log("Hi I am form index.js... so it's linked...s");
