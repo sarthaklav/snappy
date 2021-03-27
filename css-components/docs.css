@@ -13,6 +13,7 @@
 .header {
     grid-area: head;
     background-color: var(--main-color);
+    color: white;
 }
 .aside {
     grid-area: aside;
@@ -41,5 +42,6 @@
 }
 .footer {
     grid-area: footer;
+    margin-top: 3rem;
     background-color: var(--secondary-color);
 }

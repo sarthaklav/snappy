@@ -1,13 +1,79 @@
+:root {
+    --btn-color-primary: #0284C7;
+    --btn-color-secondary: #16A34A ;
+    --btn-color-warning:#F1B24A;
+    --btn-color-success: #8ebd4c;
+    --btn-color-cancel: #E13434;
+    --btn-color-light: white;
+    --btn-radius-small: .5rem;
+    --btn-border-width: .12rem;
+    --btn-color-dark: black;
+}
 
+.btn {
+    text-decoration: none;
+    border: none;
+    padding: .5rem 1rem;
+    margin: .5rem;
+    border-radius: var(--btn-radius-small);
+    /* min-width: 15rem; */
+}
 
-.btn{
+.btn-primary {
+    background-color: var(--btn-color-primary);
+    color:var(--btn-color-light);
+    border: var(--btn-border-width) solid var(--btn-primary-color);
+}
+
+.btn-secondary {
+    background-color: var(--btn-color-secondary);
+    color: var(--btn-color-light);
+    border: var(--btn-border-width) solid var(--btn-color-secondary);
+   
+
+}
+
+.btn-success {
+    background-color: var(--btn-color-success);
+    color: var(--bnt-color-dark);
+    border: var(--btn-border-width) solid var(--btn-color-success);
+}
+
+.btn-cancel {
+    background-color: var(--btn-color-cancel);
+    border: var(--btn-border-width) solid var(--btn-color-cancel );
+    color: var(--btn-color-light);
+}
+.btn-warning{
+    background-color: var(--btn-color-warning);
+    border: var(--btn-border-width) solid var(--btn-color-warning);
+}
+.btn-dark{
+    background-color: var(--btn-color-dark);
+    border: var(--btn-border-width) solid var(--btn-color-dark);
+    color: var(--btn-color-light);
+}
+.btn-light{
+    border: var(--btn-border-width) solid var(--btn-color-dark);
+    color: var(--btn-color-dark);
+}
+.link {
     text-decoration: none;
     box-sizing: border-box;
     padding: .5rem 1rem;
+    border-radius: var(--btn-radius-small);
+    border: var(--btn-border-width) solid var(--main-color);
+    margin: .5rem;
 }
-.btn-primary{
+.link-primary{
     background-color: var(--main-color);
-    border-radius: var(--btn-radius);
-  
-    /* width: 10rem; */
+    color: var(--btn-color-light);
+    
 }
+.link-secondary{
+    color: var(--main-color);  
+
+    
+  
+}
+
