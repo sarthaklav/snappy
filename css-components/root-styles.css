@@ -2,6 +2,7 @@
 @import "button.css";
 @import "docs.css";
 @import "alert.css";
+@import "badge.css";
 
 :root {
     --zero-pixels: 0px;
