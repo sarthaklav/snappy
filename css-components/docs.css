@@ -48,3 +48,6 @@
     margin-top: 3rem;
     background-color: var(--secondary-color);
 }
+.alert-div{
+    display: flex;
+}
