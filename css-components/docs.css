@@ -3,7 +3,7 @@
     grid-template-areas: "head head"
         "aside main"
         "footer footer";
-    grid-template-rows: 1fr 6fr 1fr;
+    grid-template-rows: 100px 1fr 100px;
     grid-template-columns: 1fr 5fr;
     margin: var(--zero-percent);
     /* max-width: 500px    ; */
