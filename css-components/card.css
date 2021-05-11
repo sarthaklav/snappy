@@ -1,0 +1,24 @@
+:root{
+    --width-medium: 25%;
+    --small-padding:1rem;
+    --small-number-unit:1;
+}
+
+.card{
+   display: flex;
+   flex-direction: column;
+   /* justify-content: space-around; */
+   border: 1px solid var(--border-color-dark);
+   max-width: var(--width-medium);
+   /* padding: var(--small-padding); */
+}
+
+.card .card-img{
+    width: 100%;
+}
+
+.card .card-details {
+    flex-grow: var(--small-number-unit);
+    margin: .5rem;
+}
+
