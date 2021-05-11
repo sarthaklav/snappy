@@ -21,4 +21,12 @@
     flex-grow: var(--small-number-unit);
     margin: .5rem;
 }
+.card-text-over-card-img{
+  display: block;
+  position: absolute;
+  color: red;
+  width: 100%;
+  font-size: 3rem;
+  top: .1rem;
+}
 

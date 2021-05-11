@@ -46,3 +46,11 @@
     padding: auto;
     margin: auto;
 }
+.badge-on-card{
+display: block;
+position: absolute;
+top: .1rem;
+color:white;
+background-color: black;
+margin: .2rem;
+}
