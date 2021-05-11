@@ -3,6 +3,7 @@
 @import "docs.css";
 @import "alert.css";
 @import "badge.css";
+@import "card.css";
 
 :root {
     --zero-pixels: 0px;
@@ -11,6 +12,8 @@
     --primary-color:#4D774E;
     --secondary-color: #E7E5E4;
     --small-padding:2rem;
+    --border-color-dark: black;
+    
 }
 
 
