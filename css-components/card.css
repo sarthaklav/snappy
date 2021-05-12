@@ -1,5 +1,6 @@
 :root{
     --width-medium: 25%;
+    --width-large: 80%;
     --small-padding:1rem;
     --small-number-unit:1;
 }
@@ -9,7 +10,7 @@
    flex-direction: column;
    /* justify-content: space-around; */
    border: 1px solid var(--border-color-dark);
-   max-width: var(--width-medium);
+   width: var(--width-medium);
    /* padding: var(--small-padding); */
 }
 
@@ -25,8 +26,19 @@
   display: block;
   position: absolute;
   color: red;
-  width: 100%;
+  max-width: 100%;
   font-size: 3rem;
   top: .1rem;
 }
+.card-horizontal{
+    flex-direction: row;
+    width: var(--width-large);
+    margin: 1rem;
+}
 
+
+.card-horizontal .card-image-container-horizontal{
+  max-width: 30%;
+  margin: 1rem;
+  justify-content: space-between;
+}
