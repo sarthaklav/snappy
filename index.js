@@ -1,23 +1,5 @@
-// console.log("Hi I am form index.js... so it's linked...s");
 
-// const btn = document.querySelector('#alert-btn');
-// if( btn){
-//     btn.addEventListener('click', triggerAlert);
-// }
-
-// function triggerAlert() {
-//     console.log("triggerAlert was called!!");
-
-//   var alertEl = document.querySelector('.alert');
-  
-//   alertEl.setAttribute("role", "alert");
-// }
-
-
-// function showAlert(){
-//     console.log("show alert was called...")
-//     document.getElementById("expirationWarning").className = ""; 
-// }
+//below alert message deals with the alert massage that disappears in 3 seconds automatically
 
 const showAlertTimeout = document.getElementById('show-alert-timeout');
 
@@ -34,6 +16,8 @@ function triggerTimeoutAlert(){
     },3000);
 }
 
+
+//below event handler deals with the alert message cancelled manually 
 
 const showAlertCancel = document.getElementById('show-alert-cancel');
 if(showAlertCancel) {
