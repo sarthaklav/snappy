@@ -3,6 +3,7 @@
     --width-large: 80%;
     --small-padding:1rem;
     --small-number-unit:1;
+    --card-shadow-color: black;
 }
 
 .card{
@@ -41,4 +42,12 @@
   max-width: 30%;
   margin: 1rem;
   justify-content: space-between;
+}
+.card-shadow{
+    box-shadow: .1rem .1rem 1.25rem .1rem var(--card-shadow-color);
+}
+.card-close-btn{
+    position: absolute ;
+    top: .1rem;
+    right: .1rem;
 }
