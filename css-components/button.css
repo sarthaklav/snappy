@@ -22,7 +22,7 @@
 .btn-primary {
     background-color: var(--btn-color-primary);
     color:var(--btn-color-light);
-    border: var(--btn-border-width) solid var(--btn-primary-color);
+    border: var(--btn-border-width) solid var(--btn-color-primary);
 }
 
 .btn-secondary {
