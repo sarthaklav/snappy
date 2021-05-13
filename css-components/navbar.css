@@ -1,0 +1,25 @@
+.nav{
+    display: flex;
+    align-items: center;
+
+    background-color:black;
+
+    padding: 1rem;
+   
+}
+
+.navbar-list{
+    display: flex;
+    list-style-type: none;
+    margin: 0%;
+    height: 100%;
+
+ 
+}
+
+.navbar-link{
+    text-decoration: none;
+    padding: .5rem;
+    color: white;
+    font-size: 25px;
+}
