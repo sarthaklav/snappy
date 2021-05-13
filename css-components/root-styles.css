@@ -1,9 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+
 @import "avatar.css";
 @import "button.css";
 @import "docs.css";
 @import "alert.css";
 @import "badge.css";
 @import "card.css";
+@import "navbar.css";
 
 :root {
     --zero-pixels: 0px;
