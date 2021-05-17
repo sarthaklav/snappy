@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SNAPPY</title>
     <link rel="stylesheet" href="/css-components/root-styles.css ">
-
+  
 </head>
 
 <body class="body">
@@ -41,7 +41,7 @@
         <a href="#button" class="aside-link">Button</a>
         <a href="#card" class="aside-link">Card</a>
         <a href="#image" class="aside-link">Image</a>
-        <a href="#image" class="aside-link">Input</a>
+        <a href="#input" class="aside-link">Input</a>
         <a href="#list" class="aside-link">List</a>
         <a href="#navigation" class="aside-link">Navigation</a>
         <a href="#model" class="aside-link">Model</a>
@@ -96,7 +96,7 @@
             Alert
         -->
         <div id="alert" class="main-container">
-            <h3>Alert</h3>
+            <h3 class="main-container-heading">Alert</h3>
             <div class="main-container-components">
                 <div class="alert-div">
                     <button id="show-alert-timeout" class="btn btn-primary">Show alert</button>
@@ -119,7 +119,7 @@
             Badges
         -->
         <div id="badge" class="main-container">
-            <h3>Badge</h3>
+            <h3 class="main-container-heading">Badge</h3>
             <div class="main-container-components">
 
                 <div class="">
@@ -145,7 +145,7 @@
             Button components are placed below
         -->
         <div id="button" class="main-container">
-            <h3>Button</h3>
+            <h3 class="main-container-heading">Button</h3>
             <div class="main-container-components">
                 <button class="btn btn-primary">Primary </button>
                 <button class="btn btn-secondary">Secondary </button>
@@ -158,17 +158,17 @@
                 <a class="link link-secondary" href="#">Secondary link</a>
             </div>
         </div>
+
         <!--
             Cards components are placed below
         -->
         <div id="card" class="main-container">
-            <h3>Cards</h3>
+            <h3 class="main-container-heading">Cards</h3>
             <div class="main-container-components">
                 <div class="card">
                     <h3>Card heading </h3>
                     <div>
-                        <img class="card-img"
-                            src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/shopping-bag-full-of-fresh-vegetables-and-fruits-royalty-free-image-1128687123-1564523576.jpg">
+                        <img class="card-img" src="../images/card-image.jpeg">
                     </div>
 
                     <div class="card-details">
@@ -188,8 +188,7 @@
                 <div class="card">
                     <h3>Card with text overlay</h3>
                     <div class="card-img-container badge-applied-on">
-                        <img class="card-img"
-                            src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/shopping-bag-full-of-fresh-vegetables-and-fruits-royalty-free-image-1128687123-1564523576.jpg">
+                        <img class="card-img" src="../images/card-image.jpeg">
                         <p class="card-text-over-card-img"> Out of stock </p>
                     </div>
                     <div class="card-details">
@@ -208,8 +207,7 @@
                 <div class="card">
                     <h3>Card with badge </h3>
                     <div class="card-img-container badge-applied-on">
-                        <img class="card-img"
-                            src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/shopping-bag-full-of-fresh-vegetables-and-fruits-royalty-free-image-1128687123-1564523576.jpg">
+                        <img class="card-img" src="../images/card-image.jpeg">
                         <span class="badge-on-card">100% Organic</span>
                     </div>
                     <div class="card-details">
@@ -232,8 +230,7 @@
                 <div class="card">
                     <h3>Card with dismiss</h3>
                     <div class="badge-applied-on">
-                        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/shopping-bag-full-of-fresh-vegetables-and-fruits-royalty-free-image-1128687123-1564523576.jpg"
-                            alt="">
+                        <img src="../images/card-image.jpeg" alt="">
                         <button class="card-close-btn">x</button>
                     </div>
                     <div class="card-details">
@@ -249,8 +246,7 @@
                 <div class="card card-shadow">
                     <h3>Card with shadow</h3>
                     <div>
-                        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/shopping-bag-full-of-fresh-vegetables-and-fruits-royalty-free-image-1128687123-1564523576.jpg"
-                            alt="">
+                        <img src="../images/card-image.jpeg" alt="">
                     </div>
                     <div class="card-details">
                         <h3>Subheading</h3>
@@ -286,8 +282,7 @@
             <div class="main-container-components">
                 <div class="card card-horizontal">
                     <div class="card-image-container-horizontal">
-                        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/shopping-bag-full-of-fresh-vegetables-and-fruits-royalty-free-image-1128687123-1564523576.jpg"
-                            alt="">
+                        <img src="../images/card-image.jpeg" alt="">
                         <div>
                             <button class="btn btn-primary">Primary button</button>
                             <button class="btn btn-light">Light button</button>
@@ -305,17 +300,99 @@
                 </div>
             </div>
         </div>
-        <div id="nav" class="main-container">
+        <!--
+            Input component below
+        -->
+        <div id="input" class="main-container">
+            <h3 class="main-container-heading">Input</h3>
             <div class="main-container-components">
-                <nav style="background-color: cornsilk;">
-                    <a href="#" class="btn">SNAPPY</a>
-                    <a href="#" class="btn">HOME</a>
-
-                </nav>
 
             </div>
 
         </div>
+
+        <!--
+            List groups are placed below
+        -->
+        <div id="list" class="main-container">
+         <h3 class="main-container-heading">List group</h3>
+           <div class="main-container-component">   
+               <div>
+                   <ul class="list-group list-group-border ">
+                       <li>List item one</li>
+                       <li>List item two</li> 
+                       <li>List item three</li>
+                       <li>List item four</li>
+                       <li>List item five</li>
+                   </ul>
+               </div>
+
+               <div>
+                   <ul class="list-group list-group-borderless">
+                       <li>List item one</li>
+                       <li>List item two</li> 
+                       <li>List item three</li>
+                       <li>List item four</li>
+                       <li>List item five</li>
+                   </ul>
+               </div>
+           </div>
+
+       </div>
+<!--
+    navigation components are placed below
+-->
+        <div id="nav" class="main-container">
+            <h3 class="main-container-heading">Navigation</h3>
+            <div class="main-container-components">
+                <nav style="background-color: cornsilk;">
+                    <a href="#" class="btn">SNAPPY</a>
+                    <a href="#" class="btn">HOME</a>
+                </nav>
+            </div>
+        </div>
+        <!--
+           Rating components are placed below
+
+           NOTE: Need to change the dynamically when clicked on a star to give rating 
+           ie:the color of stars previous to the clicked star should be changed.
+           can be done if classes changed on onclick event.
+         -->
+        <div id="rating" class="main-container">
+            <h3 class="main-container-heading">Rating</h3>
+            <div class="main-container-components">
+                <div class="rating-shown-all-5 filter-green">
+                   <i>
+                       <img class="filter-green" src="../images/star-solid.svg" alt="">
+                   </i>
+                   <i>
+                        <img class="" src="../images/star-solid.svg" alt="">
+                    </i>
+                    <i>
+                        <img class="filter-green" src="../images/star-solid.svg" alt="">
+                    </i>
+                    <i>
+                        <img class="filter-green" src="../images/star-regular.svg" alt="">
+                    </i>
+                    <i>
+                        <img class="filter-green" src="../images/star-regular.svg" alt="">
+                    </i>
+            
+                </div>
+                <div>
+                    <!-- <span>4.2</span> -->
+                    <i class="fal fa-star">
+
+                    </i>
+                </div>
+                <i class="far fa-star"></i>
+            </div>
+
+        </div>
+
+
+
+      
     </main>
     <footer class="footer">
         This is the footer

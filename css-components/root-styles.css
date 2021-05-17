@@ -10,6 +10,8 @@
 @import "badge.css";
 @import "card.css";
 @import "navbar.css";
+@import "rating.css";
+@import "list.css";
 
 :root {
     --zero-pixels: 0px;

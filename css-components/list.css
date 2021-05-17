@@ -1,3 +1,33 @@
-/* .list{
-    text-decoration: none;
-} */
+.list-group {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    max-width: 40%;
+}
+
+.list-group-border li{
+    border: 1px solid #808080;
+    margin-top: -1px;
+    padding: .7rem;
+    background-color: rgb(245, 238, 238);
+    display: block;
+  
+}
+.list-group-border li:nth-child(1){
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+.list-group-border :nth-last-child(1){
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
+
+.list-group-borderless li{
+    border-bottom:1px solid lightgray;
+    padding: .7rem;
+}
+.list-group-borderless :nth-last-child(1){
+    border:none;
+}
+
+
