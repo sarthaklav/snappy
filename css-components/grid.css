@@ -1,0 +1,34 @@
+.grid {
+    display: flex;
+}
+
+.grid-row-2 {
+    width: 90%;
+}
+
+.grid-item {
+    background-color: lightgray;
+    border: 1px solid gray;
+    margin-top: -1px;
+    padding: 1rem;
+}
+
+.grid-row-2>.grid-item {
+    width: 50%;
+}
+
+.grid-row-3 {
+    width: 90%;
+}
+
+.grid-row-3>.grid-item {
+    width: 33.33%;
+}
+
+.grid-mix-3 {
+    width: 90%;
+    flex-direction: column;
+}
+.grid-mix-3>.grid-row-2{
+    width: 100%;
+}

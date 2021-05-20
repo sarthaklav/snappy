@@ -9,9 +9,11 @@
 @import "alert.css";
 @import "badge.css";
 @import "card.css";
+@import "input.css";
 @import "navbar.css";
 @import "rating.css";
 @import "list.css";
+@import "grid.css";
 
 :root {
     --zero-pixels: 0px;
@@ -25,3 +27,6 @@
 }
 
 
+*{
+    box-sizing: border-box;
+}

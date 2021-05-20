@@ -16,8 +16,8 @@
     yet to complete
 -->
     <nav class="nav header">
-        <a class="navbar-link" href="/">SNAPPY</a>
-        <div style="margin: 0;">
+        <div style="display: flex;">
+            <a class="navbar-link" href="/">SNAPPY</a>
             <ul class="navbar-list">
                 <li>
                     <a class="navbar-link" href="../index.html">Home</a>
@@ -25,11 +25,22 @@
                 <li>
                     <a class="navbar-link" href="">Docs</a>
                 </li>
-                <li style="display: block; ">
-                    <input type="text" name="" id="">
+            </ul>
+        </div>
+        <div>
+            <input type="search" name="" id="">
+            <button>Search</button>
+        </div>
+        <div style="float: right;">
+            <ul class="navbar-list">
+                <li>
+
+                </li>
+                <li>
+                    <span class="navbar-link">v.01</span>
+
                 </li>
             </ul>
-
         </div>
     </nav>
 
@@ -305,8 +316,92 @@
         -->
         <div id="input" class="main-container">
             <h3 class="main-container-heading">Input</h3>
-            <div class="main-container-components">
+            <div class="main-container-components ">
 
+                <form action="" class="form">
+                    <div class="form-div">
+                        <label class="form-div-label" for="first-name">Name:</label>
+                        <input class="form-div-input half-length-input" type="text" name="" id="" placeholder="Name">
+
+                    </div>
+                    <div class="form-div">
+                        <label class="form-div-label" for="email">Email:</label>
+                        <input class="form-div-input" type="email" name="" id="" placeholder="Email">
+                    </div>
+                    <div class="form-div">
+                        <label class="form-div-label" for="mobile">Mobile:</label>
+                        <input class="form-div-input" type="number" name="" id="" placeholder="Mobile Number">
+                    </div>
+                    <div class="form-div">
+                        <label class="form-div-label" for="date-of-birth">Date of birth:</label>
+                        <input class="form-div-input" type="date" name="" id="" placeholder="Date of Birth">
+                    </div>
+                    <div class="form-div">
+                        <label class="form-div-label" for="password">Password:</label>
+                        <input class="form-div-input" type="password" name="" id="" placeholder="Password">
+                    </div>
+                    <div class="form-div" style="display: flex; flex-direction: row;">
+                        <label class="form-div-label form-div-item-div" for="gender">Gender:</label>
+                        <div class="form-div-item-div">
+                            <input type="checkbox" name="male" id="">
+                            <label for="male">Male</label>
+                        </div>
+                        <div class="form-div-item-div">
+                            <input type="checkbox" name="female" id="">
+                            <label for="female">Female</label>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="form-div-label" for="state">State:</label>
+                        <select class="form-div-input" name="state" id="state" class="form-control">
+                            <option value="" disabled selected>--Select your state--</option>
+                            <option value="Andhra Pradesh">Andhra Pradesh</option>
+                            <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                            <option value="Assam">Assam</option>
+                            <option value="Bihar">Bihar</option>
+                            <option value="Chandigarh">Chandigarh</option>
+                            <option value="Chhattisgarh">Chhattisgarh</option>
+                            <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+                            <option value="Daman and Diu">Daman and Diu</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="Lakshadweep">Lakshadweep</option>
+                            <option value="Puducherry">Puducherry</option>
+                            <option value="Goa">Goa</option>
+                            <option value="Gujarat">Gujarat</option>
+                            <option value="Haryana">Haryana</option>
+                            <option value="Himachal Pradesh">Himachal Pradesh</option>
+                            <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                            <option value="Jharkhand">Jharkhand</option>
+                            <option value="Karnataka">Karnataka</option>
+                            <option value="Kerala">Kerala</option>
+                            <option value="Madhya Pradesh">Madhya Pradesh</option>
+                            <option value="Maharashtra">Maharashtra</option>
+                            <option value="Manipur">Manipur</option>
+                            <option value="Meghalaya">Meghalaya</option>
+                            <option value="Mizoram">Mizoram</option>
+                            <option value="Nagaland">Nagaland</option>
+                            <option value="Odisha">Odisha</option>
+                            <option value="Punjab">Punjab</option>
+                            <option value="Rajasthan">Rajasthan</option>
+                            <option value="Sikkim">Sikkim</option>
+                            <option value="Tamil Nadu">Tamil Nadu</option>
+                            <option value="Telangana">Telangana</option>
+                            <option value="Tripura">Tripura</option>
+                            <option value="Uttar Pradesh">Uttar Pradesh</option>
+                            <option value="Uttarakhand">Uttarakhand</option>
+                            <option value="West Bengal">West Bengal</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="form-div-label" for="Address">Address:</label>
+                        <textarea class="form-div-textarea" name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <input class="btn btn-cancel" type="reset" value="Reset">
+                        <button class="btn btn-secondary submit-btn" type="submit">Submit</button>
+                    </div>
+                </form>
             </div>
 
         </div>
@@ -389,10 +484,51 @@
             </div>
 
         </div>
-
-
-
-
+        <!--
+            grid : simplified grid component is placed below
+        -->
+        <div id="simplified-grid" class="main-container">
+            <h3 class="main-container-heading">Simplified Grid</h3>
+            <div class="main-container-components">
+                <div class="grid grid-row-2">
+                    <div class="grid-item">
+                        Half width grid
+                    </div>
+                    <div class="grid-item">
+                        Half width grid
+                    </div>
+                </div>
+            </div>
+            <div class="main-container-components">
+                <div class="grid grid-row-3">
+                    <div class="grid-item">
+                        First inline grid in row
+                    </div>
+                    <div class="grid-item">
+                        Second inline grid in row
+                    </div>
+                    <div class="grid-item">
+                        Third inline grid in row
+                    </div>
+                </div>
+            </div>
+            <div class="main-container-components">
+                <div class="grid grid-mix-3">
+                    <div class="grid-item">
+                        Full width grid
+                    </div>
+                    <div class="grid grid-row-2">
+                      <div class="grid-item">
+                          Half width grid
+                      </div>
+                      <div class="grid-item">
+                          Half width grid
+                      </div>
+                    </div>
+                </div>
+                  
+            </div>
+        </div>
     </main>
     <footer class="footer">
         This is the footer

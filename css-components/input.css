@@ -1,0 +1,30 @@
+
+.form{
+    padding: 1.5rem;
+    margin-right: 0;
+    margin-left: 0;
+    border: 1px solid lightgray;
+    border-width: .2rem;
+    width: 60%;
+    border-radius: .5rem;
+    background-color: rgb(245, 238, 238);
+}
+
+.form-div-label{
+    display: inline-block;
+}
+.form-div-input{
+    width: 100%;
+    margin-bottom: 1rem;
+    height: 2rem;
+}
+.form-div-item-div{
+    margin-right: 20%;
+}
+.form-div-textarea{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.submit-btn{
+    float: right;
+}
