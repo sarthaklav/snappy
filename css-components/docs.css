@@ -1,5 +1,5 @@
-:root{
-    --link-hover-color:#9CA3AF;
+:root {
+    --link-hover-color: #9CA3AF;
 }
 
 .body {
@@ -42,12 +42,14 @@
 
 
 }
-.aside-link{
+
+.aside-link {
     text-decoration: none;
     color: black;
 
 }
-.aside-link:hover{
+
+.aside-link:hover {
     color: var(--link-hover-color);
     /* background-color: black;
     color: white; */
@@ -62,16 +64,19 @@
 }
 
 .main-container {
- margin: 1rem;
+    margin: 1rem;
 }
 
-.main-container-heading {}
+.main-container-heading {
+    margin: 3rem;
+}
 
 .main-container-components {
     display: flex;
     justify-content: space-evenly;
-    margin: 1rem;
+    margin: 3rem;
     padding: .5rem;
+    width: 90%;
 }
 
 .footer {
@@ -79,6 +84,7 @@
     margin-top: 3rem;
     background-color: var(--secondary-color);
 }
-.alert-div{
+
+.alert-div {
     display: flex;
 }

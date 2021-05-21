@@ -14,6 +14,7 @@
 @import "rating.css";
 @import "list.css";
 @import "grid.css";
+@import "text-utilities.css";
 
 :root {
     --zero-pixels: 0px;
