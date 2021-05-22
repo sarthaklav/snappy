@@ -15,6 +15,7 @@
 @import "list.css";
 @import "grid.css";
 @import "text-utilities.css";
+@import "image.css";
 
 :root {
     --zero-pixels: 0px;
@@ -26,8 +27,11 @@
     --border-color-dark: black;
     
 }
-
-
 *{
     box-sizing: border-box;
+}
+/* this has to be removed added for developement time. */
+a{
+    text-decoration: none;
+    color: white;  
 }

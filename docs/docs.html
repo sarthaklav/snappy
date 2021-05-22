@@ -13,35 +13,29 @@
 <body class="body">
     <!--
     This is navigation bar in the header section of the page 
-    yet to complete
--->
+    -->
     <nav class="nav header">
-        <div style="display: flex;">
-            <a class="navbar-link" href="/">SNAPPY</a>
-            <ul class="navbar-list">
-                <li>
-                    <a class="navbar-link" href="../index.html">Home</a>
-                </li>
-                <li>
-                    <a class="navbar-link" href="">Docs</a>
-                </li>
-            </ul>
-        </div>
-        <div>
-            <input type="search" name="" id="">
-            <button>Search</button>
-        </div>
-        <div style="float: right;">
-            <ul class="navbar-list">
-                <li>
+        <a href="#" class="navbar-brand">SNAPPY</a>
+        <div class="navbar-collapse">
+            <ul class="navbar-nav-list">
+                 <li >
+                     <a href="">Home</a>
+                 </li>
+                 <li >
+                    <a  href="">Docs</a>
+                 </li>
 
-                </li>
-                <li>
-                    <span class="navbar-link">v.01</span>
-
-                </li>
             </ul>
+            <form action="" class="navbar-form">
+                <div class="" style="display: inline-block; align-items: center;">
+                    <input class="nav-input" type="search" name="" id="" placeholder="">
+                </div>
+                <div>
+                    <button class="btn btn-light submit-btn" type="submit">Search</button>
+                </div>
+            </form>
         </div>
+       
     </nav>
 
     <aside class="aside aside-navbar">
@@ -54,14 +48,12 @@
         <a href="#image" class="aside-link">Image</a>
         <a href="#input" class="aside-link">Input</a>
         <a href="#list" class="aside-link">List</a>
-        <a href="#navigation" class="aside-link">Navigation</a>
+        <a href="#nav" class="aside-link">Navigation</a>
         <a href="#model" class="aside-link">Model</a>
         <a href="#rating" class="aside-link">Rating</a>
         <a href="#simplified-grid" class="aside-link">Simplified Grid</a>
         <a href="#text-utilities" class="aside-link">Text Utilities</a>
         <a href="#toast" class="aside-link">Toast </a>
-        <a href="#notify" class="aside-link">Notify</a>
-        <a href="#snackbar" class="aside-link">Snackbar</a>
     </aside>
     <main class="main ">
         It will contain all the docs and css show
@@ -312,6 +304,22 @@
             </div>
         </div>
         <!--
+            Image component is placed below
+        -->
+        <div id="image" class="main-container">
+            <h3 class="main-container-heading">Image</h3>
+            <div class="main-container-components">
+                <div class="image">
+                    <img src="https://www.testronixinstruments.com/backend/uploads/blog/1610451062.jpg" alt="Responsive image">
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!--
             Input component below
         -->
         <div id="input" class="main-container">
@@ -435,14 +443,33 @@
 
         </div>
         <!--
-    navigation components are placed below
--->
+          navigation components are placed below
+        -->
         <div id="nav" class="main-container">
             <h3 class="main-container-heading">Navigation</h3>
             <div class="main-container-components">
-                <nav style="background-color: cornsilk;">
-                    <a href="#" class="btn">SNAPPY</a>
-                    <a href="#" class="btn">HOME</a>
+                <nav class="nav">
+                    <a href="#" class="navbar-brand">SNAPPY</a>
+                    <div class="navbar-collapse">
+                        <ul class="navbar-nav-list">
+                             <li >
+                                 <a  href="">Home</a>
+                             </li>
+                             <li>
+                                <a href="">Docs</a>
+                             </li>
+
+                        </ul>
+                        <form action="" class="navbar-form">
+                            <div class="" style="display: inline-block; align-items: center;">
+                                <input class="nav-input" type="search" name="" id="" placeholder="">
+                            </div>
+                            <div>
+                                <button class="btn btn-light submit-btn" type="submit">Search</button>
+                            </div>
+                        </form>
+                    </div>
+                   
                 </nav>
             </div>
         </div>
