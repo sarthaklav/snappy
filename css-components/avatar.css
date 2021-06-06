@@ -3,12 +3,9 @@
     --small-percent:10%;
     --medium-percent:15%;
     --large-percent:20%;
-    --extra-large-percent: %;
-
 }
 
 .avatar-small{
-   
     width: var(--small-percent);
     height: var(--small-percent);
 }
@@ -31,4 +28,5 @@
 }
 img{
     width: 100%;
+    height: auto;
 }

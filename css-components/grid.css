@@ -7,8 +7,8 @@
 }
 
 .grid-item {
-    background-color: lightgray;
-    border: 1px solid gray;
+    background-color:var(--light-gray-color);
+    border: .8px solid var(--dark-gray-color);
     margin-top: -1px;
     padding: 1rem;
 }

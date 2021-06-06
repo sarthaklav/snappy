@@ -5,6 +5,9 @@
     width: 100%;
     align-items: center;
 }
+.nav a{
+    color: white;
+}
 
 .navbar-brand {
     display: inline-block;
@@ -42,7 +45,6 @@
     align-items: center;
 }
 
-
 .nav-input {
     display: inline-block;
     width: auto;
@@ -51,4 +53,3 @@
     border: 1px solid black;
     border-radius: .4rem;
 }
-

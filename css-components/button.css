@@ -1,13 +1,14 @@
 :root {
     --btn-color-primary: #0284C7;
     --btn-color-secondary: #16A34A ;
-    --btn-color-warning:#F1B24A;
     --btn-color-success: #8ebd4c;
     --btn-color-cancel: #E13434;
+    --btn-color-warning:#F1B24A;
     --btn-color-light: white;
+    --btn-color-dark: black;
     --btn-radius-small: .5rem;
     --btn-border-width: .12rem;
-    --btn-color-dark: black;
+
 }
 
 .btn {
@@ -16,7 +17,6 @@
     padding: .5rem 1rem;
     margin: .5rem;
     border-radius: var(--btn-radius-small);
-    /* min-width: 15rem; */
 }
 
 .btn-primary {
@@ -29,8 +29,6 @@
     background-color: var(--btn-color-secondary);
     color: var(--btn-color-light);
     border: var(--btn-border-width) solid var(--btn-color-secondary);
-   
-
 }
 
 .btn-success {
@@ -54,6 +52,7 @@
     color: var(--btn-color-light);
 }
 .btn-light{
+    /* background-color: white; */
     border: var(--btn-border-width) solid var(--btn-color-dark);
     color: var(--btn-color-dark);
 }

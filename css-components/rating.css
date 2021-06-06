@@ -1,0 +1,19 @@
+.rating-shown-all-5{
+    display: flex;
+    /* height: 2rem; */
+    max-width: 15rem;
+    /* max-height: .1rem; */
+}
+/* img:hover{
+    fill: red;
+} */
+
+.filter-green >i>img{
+    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(70%) contrast(119%);
+}
+
+.rating-text-high{
+   display: flex;
+   max-width: 5rem;
+   background-color: green;
+}

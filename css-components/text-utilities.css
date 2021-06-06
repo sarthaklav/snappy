@@ -1,7 +1,7 @@
 .text-utilities {
     width: 90%;
     padding: 1rem;
-    border: 2px solid lightgray;
+    border: 2px solid var(--dark-gray-color);
 }
 
 .text-justify{

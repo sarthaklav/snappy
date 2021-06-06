@@ -10,7 +10,6 @@
     --badge-extraSmall-posittioning:5%;
 }
 
-
 .badge-applied-on{
     position: relative;
 }
@@ -24,6 +23,7 @@
     right: var(--badge-small-positioning);
     width: var(--badge-medium-diameter);
     height: var(--badge-medium-diameter);
+    padding: auto;
 }
 
 
@@ -43,7 +43,7 @@
     bottom: 80%;
     width: var(--badge-medium-diameter);
     height: var(--badge-medium-diameter);
-    padding: auto;
+    padding: .1rem;
     margin: auto;
 }
 .badge-on-card{

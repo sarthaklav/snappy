@@ -2,14 +2,14 @@
     display: flex;
     flex-direction: column;
     list-style-type: none;
-    max-width: 40%;
+    /* width: 200%; */
 }
 
 .list-group-border li{
-    border: 1px solid #808080;
+    border: 1px solid  var(--dark-gray-color);
     margin-top: -1px;
     padding: .7rem;
-    background-color: rgb(245, 238, 238);
+    background-color: var(--light-gray-color);
     display: block;
   
 }
@@ -23,7 +23,7 @@
 }
 
 .list-group-borderless li{
-    border-bottom:1px solid lightgray;
+    border-bottom:1px solid var(--dark-gray-color);
     padding: .7rem;
 }
 .list-group-borderless :nth-last-child(1){

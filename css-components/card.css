@@ -3,14 +3,13 @@
     --width-large: 80%;
     --small-padding:1rem;
     --small-number-unit:1;
-    --card-shadow-color: black;
 }
 
 .card{
    display: flex;
    flex-direction: column;
    /* justify-content: space-around; */
-   border: 1px solid var(--border-color-dark);
+   border: 1px solid var(--dark-gray-color);
    width: var(--width-medium);
    /* padding: var(--small-padding); */
 }
@@ -44,7 +43,7 @@
   justify-content: space-between;
 }
 .card-shadow{
-    box-shadow: .1rem .1rem 1.25rem .1rem var(--card-shadow-color);
+    box-shadow: .1rem .1rem 1.25rem .1rem var(--black-color);
 }
 .card-close-btn{
     position: absolute ;

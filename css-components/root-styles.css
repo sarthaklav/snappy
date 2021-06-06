@@ -16,22 +16,28 @@
 @import "grid.css";
 @import "text-utilities.css";
 @import "image.css";
+@import "modal.css";
+@import "toast.css";
 
 :root {
     --zero-pixels: 0px;
     --zero-percent: 0%;
     --main-color: #164A41;
+    --black-color:black;
+    --light-gray-color:#f2f2f2 ;
+    --dark-gray-color: #939599;
     --primary-color:#4D774E;
-    --secondary-color: #E7E5E4;
+    /* --secondary-color: #E7E5E4; */
     --small-padding:2rem;
     --border-color-dark: black;
+
     
 }
 *{
     box-sizing: border-box;
 }
-/* this has to be removed added for developement time. */
+
 a{
     text-decoration: none;
-    color: white;  
+
 }

@@ -40,3 +40,37 @@ function closeTimeoutAlertMessage(){
     console.log("close event handller was called");
     document.getElementById('alert-message-cancel').style.visibility="hidden";
 }
+
+
+
+//code to open and close modal box in the documentation page
+
+const openModal = document.getElementById('openModalBtn');
+const dialog    = document.getElementById('dialogBox');
+const closeModal = document.getElementById('closeDialogBox');
+
+openModal.addEventListener('click', function(){
+   dialog.showModal();
+   console.log("Dialog Open event handeller is running..");
+   document.querySelector('body').style.opacity= .2;
+})
+
+closeModal.addEventListener('click', function(){
+    dialog.close();
+    console.log("dialog close box clicked...");
+    document.querySelector('body').style.opacity= 1;   
+})
+
+//code below deals with toast message
+
+const toastMsg = document.getElementById('toast-msg');
+const toastBtn = document.getElementById('toast');
+
+toast.addEventListener('click', function(){
+    // document.getElementById('toast-msg').style.display= "block";
+    toastMsg.style.display= "block";
+    setTimeout(function(){
+     toastMsg.style.display= "none";
+    },4000)
+   
+})
