@@ -1,56 +1,47 @@
 :root{
-    --badge-red-color: red;
     --badge-online-color:#16A34A ;
     --badge-light-color:white;
     --badge-notification-color: #0284C7;
     --badge-medium-radius: 50%;
+
     --badge-box-radius: .2rem;
     --badge-medium-diameter:1rem;
     --badge-small-positioning:10%;
     --badge-extraSmall-posittioning:5%;
 }
-
 .badge-applied-on{
     position: relative;
 }
 .badge-avatar{
-    display: block;
     background-color: var(--badge-online-color);
     color: var(--badge-light-color);
-    border-radius: var(--badge-medium-radius);
+    border-radius: var(--fifty-percent);
     position: absolute;
-    bottom: var(--badge-small-positioning);
-    right: var(--badge-small-positioning);
-    width: var(--badge-medium-diameter);
-    height: var(--badge-medium-diameter);
-    padding: auto;
+    top:-5%;
+    right: 5%;
+    padding:.5rem;
 }
-
-
 .icon-medium{
     width: 25%;
 }
 .icon-small img{
-    width: 100%;;
+    width: 100%;
 }
 .badge-icon{
-    display: block;
+    position: absolute;
+    top: -.5rem;
+    right: -.5rem;
+    padding: .1rem .5rem;
+    border-radius: var(--fifty-percent);
     background-color: var(--badge-notification-color);
     color: var(--badge-light-color);
-    border-radius: var(--badge-box-radius);
-    position: absolute;
-    left: 85%;
-    bottom: 80%;
-    width: var(--badge-medium-diameter);
-    height: var(--badge-medium-diameter);
-    padding: .1rem;
-    margin: auto;
 }
+
 .badge-on-card{
-display: block;
-position: absolute;
-top: .1rem;
-color:white;
-background-color: black;
-margin: .2rem;
+    display: block;
+    position: absolute;
+    top: .1rem;
+    color:white;
+    background-color: black;
+    margin: .2rem;
 }
