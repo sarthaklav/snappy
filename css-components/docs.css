@@ -2,23 +2,26 @@
     --link-hover-color: #9CA3AF;
 }
 
-body{
-    display: grid;
-    grid-template-rows: 100px 1fr 100px;
-    grid-template-columns: 1fr 5fr;
+body {
     margin: var(--zero-percent);
     font-family: 'Open Sans', sans-serif;
 }
+
 .doc-body {
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+    grid-template-columns: 1fr 5fr;
     grid-template-areas: "head head"
-                         "aside main"
-                         "footer footer";
+        "aside main"
+        "footer footer";
 }
 
-.home-body{
+.home-body {
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
     grid-template-areas: "head head"
-                        "main main"
-                        "footer footer";
+        "main main"
+        "footer footer";
 }
 
 .header {
@@ -63,7 +66,8 @@ body{
     /* border-radius: .5rem;
     border: .12rem solid black; */
 }
-.home-img{
+
+.home-img {
     display: block;
     max-width: 30%;
     margin: auto;
@@ -100,49 +104,55 @@ body{
     bottom: 0px;
     background-color: var(--light-gray-color);
 }
-.footer >div{
+
+.footer>div {
 
     margin: 1.5rem;
 }
-.footer ul{
+
+.footer ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
     justify-content: space-around;
 }
-.footer a{
-  color: black;
+
+.footer a {
+    color: black;
 }
 
 .alert-div {
     display: flex;
 }
 
-.home-page-main-heading{
+.home-page-main-heading {
     text-align: center;
     color: var(--dark-gray-color);
     margin-bottom: 0rem;
 }
-.below-heading{
+
+.below-heading {
     display: block;
-  text-align: center;
-  color: var(--dark-gray-color);
+    text-align: center;
+    color: var(--dark-gray-color);
 }
-.container-center{
-   margin: auto;
-   max-width: 800px;
-   margin: auto;
-   padding: .5rem;
+
+.container-center {
+    margin: auto;
+    max-width: 800px;
+    margin: auto;
+    padding: .5rem;
 }
-.container-center > iframe{
+
+.container-center>iframe {
     margin-left: -1px;
 }
 
-h1 span{
-   color: var(--black-color);
+h1 span {
+    color: var(--black-color);
 }
 
-iframe{
+iframe {
     display: block;
     margin: auto;
 }
