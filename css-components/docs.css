@@ -27,9 +27,7 @@ body {
 .header {
     grid-area: head;
     background-color: grey;
-    /* background-color: var(--main-color); */
     color: white;
-    /* position: fixed; */
     position: fixed;
     width: 100%;
     z-index: 1;
@@ -40,17 +38,13 @@ body {
     grid-area: aside;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: space-between;
-    /* max-width: var(--sidebar-width); */
     margin: 2.5rem;
     height: 66vh;
     position: fixed;
     font-weight: 700;
     z-index: 2;
     top: 4rem;
-
-
 }
 
 .aside-link {
@@ -61,10 +55,6 @@ body {
 
 .aside-link:hover {
     color: var(--link-hover-color);
-    /* background-color: black;
-    color: white; */
-    /* border-radius: .5rem;
-    border: .12rem solid black; */
 }
 
 .home-img {
@@ -91,7 +81,6 @@ body {
     margin: 3rem;
     padding: .5rem;
     width: 90%;
-    /* flex-direction: row; */
 }
 
 .footer {

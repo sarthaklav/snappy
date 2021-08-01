@@ -1,11 +1,11 @@
-.toast{
+.toast {
     display: none;
     background-color: var(--dark-gray-color);
     background-color: rgb(206, 7, 7);
     color: white;
     z-index: 4;
-    padding: .5rem;
+    padding: var(--space-medium-rem);
     position: fixed;
-    top: 1rem;
+    top: var(--space-one-rem);
     text-align: center;
 }

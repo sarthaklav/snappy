@@ -1,47 +1,40 @@
-:root{
-    --badge-online-color:#16A34A ;
-    --badge-light-color:white;
-    --badge-notification-color: #0284C7;
-    --badge-medium-radius: 50%;
-
-    --badge-box-radius: .2rem;
-    --badge-medium-diameter:1rem;
-    --badge-small-positioning:10%;
-    --badge-extraSmall-posittioning:5%;
-}
-.badge-applied-on{
+.badge-applied-on {
     position: relative;
 }
-.badge-avatar{
-    background-color: var(--badge-online-color);
-    color: var(--badge-light-color);
-    border-radius: var(--fifty-percent);
+
+.badge-avatar {
+    background-color: var(--color-green-primary);
+    color: var(--color-white);
+    border-radius: var(--space-fifty-percent);
     position: absolute;
-    top:-5%;
-    right: 5%;
-    padding:.5rem;
+    top: -5%;
+    right: var(--space-five-percent);
+    padding: var(--space-medium-rem);
 }
-.icon-medium{
-    width: 25%;
+
+.icon-medium {
+    width: var(--space-twenty-percent);
 }
-.icon-small img{
-    width: 100%;
+
+.icon-small img {
+    width: var(--space-hundred-percent);
 }
-.badge-icon{
+
+.badge-icon {
     position: absolute;
     top: -.5rem;
     right: -.5rem;
-    padding: .1rem .5rem;
-    border-radius: var(--fifty-percent);
-    background-color: var(--badge-notification-color);
-    color: var(--badge-light-color);
+    padding: var(--space-very-small-rem) var(--space-medium-rem);
+    border-radius: var(--space-fifty-percent);
+    background-color: var(--color-blue);
+    color: var(--color-white);
 }
 
-.badge-on-card{
+.badge-on-card {
     display: block;
     position: absolute;
-    top: .1rem;
-    color:white;
+    top: var(--space-very-small-rem);
+    color: var(--color-white);
     background-color: black;
-    margin: .2rem;
+    margin: var(--space-small-rem);
 }

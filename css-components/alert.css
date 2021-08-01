@@ -1,41 +1,27 @@
-:root{
-    --alert-padding: .5rem 1rem;
-    --alert-color-primary: #0284C7;
-    --alert-color-secondary: #16A34A;
-    --alert-color-warning:#F1B24A;
-    --alert-color-success: #8ebd4c;
-    --alert-color-cancel: #E13434;
-    --alert-color-light: white;
-    --alert-radius-small: .5rem;
-    --alert-border-width: .12rem;
-    --alert-color-dark: black;
-    --alert-width:100%
-}
-
-
 .hidden-alert {
     visibility: hidden;
     position: relative;
     display: flex;
-  
+
 }
 
-.alert-primary-timeout{
-    padding:  var(--alert-padding);
-    background-color: var(--alert-color-primary);
-    border-radius: var(--alert-radius-small);
-    color: var(--alert-color-light);
+.alert-primary-timeout {
+    padding: var(--space-medium-rem) var(--space-one-rem);
+    background-color: var(--color-blue);
+    border-radius: var(--space-medium-rem);
+    color: var(--color-white);
 }
 
 
-.alert-cancel{
-    padding:  var(--alert-padding);
-    background-color: var(--alert-color-cancel);
-    border-radius: var(--alert-radius-small);
-    color: var(--alert-color-light);
+.alert-cancel {
+    padding: var(--space-medium-rem) var(--space-one-rem);
+    background-color: var(--color-red);
+    border-radius: var(--space-medium-rem);
+    color: var(--color-white);
 }
-.alert-close-btn{
-cursor: pointer;
-width: 4rem;
-margin: 2rem;
+
+.alert-close-btn {
+    cursor: pointer;
+    width: var(--space-four-rem);
+    margin: var(--space-two-rem);
 }

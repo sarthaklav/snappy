@@ -1,4 +1,4 @@
-.image{
-    width: 100%!important;
-    height: auto!important;
+.image {
+    width: var(--space-hundred-percent) !important;
+    height: auto !important;
 }
