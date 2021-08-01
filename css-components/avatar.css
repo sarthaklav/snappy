@@ -1,0 +1,29 @@
+.avatar-small {
+    width: var(--space-ten-percent);
+    height: var(--space-ten-percent);
+}
+
+.avatar-medium {
+    width: var(--space-fifteen-percent);
+    height: var(--space-fifteen-percent);
+}
+
+.avatar-large {
+    width: var(--space-twenty-percent);
+    height: var(--space-twenty-percent);
+}
+
+.avatar-box {
+    border-radius: 2rem;
+    width: var(--space-hundred-percent);
+}
+
+.avatar-round {
+    border-radius: var(--space-fifty-percent);
+    width: var(--space-hundred-percent);
+}
+
+img {
+    width: var(--space-hundred-percent);
+    height: auto;
+}

@@ -1,0 +1,27 @@
+.hidden-alert {
+    visibility: hidden;
+    position: relative;
+    display: flex;
+
+}
+
+.alert-primary-timeout {
+    padding: var(--space-medium-rem) var(--space-one-rem);
+    background-color: var(--color-blue);
+    border-radius: var(--space-medium-rem);
+    color: var(--color-white);
+}
+
+
+.alert-cancel {
+    padding: var(--space-medium-rem) var(--space-one-rem);
+    background-color: var(--color-red);
+    border-radius: var(--space-medium-rem);
+    color: var(--color-white);
+}
+
+.alert-close-btn {
+    cursor: pointer;
+    width: var(--space-four-rem);
+    margin: var(--space-two-rem);
+}

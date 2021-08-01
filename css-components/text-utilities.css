@@ -1,0 +1,43 @@
+.text-utilities {
+    width: 90%;
+    padding: 1rem;
+    border: 2px solid var(--dark-gray-color);
+}
+
+.text-justify{
+    text-align: justify;
+    text-justify: auto;
+}
+.text-left{
+    text-align: left;
+}
+
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+
+.text-bold{
+    font-weight: bold !important;
+}
+.text-normal{
+    font-weight:500!important;
+}
+.text-light{
+    font-weight: 200!important;
+}
+.text-italic{
+    font-style:italic !important ;
+}
+
+.text-lowercase{
+    text-transform: lowercase;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.text-capitlized{
+    text-transform: capitalize!Important ;
+}

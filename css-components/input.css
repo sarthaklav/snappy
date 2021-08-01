@@ -1,0 +1,29 @@
+.form {
+    padding: 1.5rem;
+    margin-right: 0;
+    margin-left: 0;
+    border: 1px solid var(--dark-gray-color);
+    border-width: var(--space-small-rem);
+    min-width: 60%;
+    border-radius: var(--space-medium-rem);
+    background-color: var(--light-gray-color);
+}
+
+.form-div-label {
+    display: inline-block;
+}
+
+.form-div-input {
+    width: var(--space-hundred-percent);
+    margin-bottom: var(--space-one-rem);
+    height: var(--space-two-rem);
+}
+
+.form-div-textarea {
+    width: var(--space-hundred-percent);
+    margin-bottom: var(--space-two-rem);
+}
+
+.submit-btn {
+    float: right;
+}

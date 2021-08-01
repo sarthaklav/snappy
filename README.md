@@ -1,7 +1,3 @@
 #  Snappy 
-
 Hey!! 
-
-Welcome to my Component Libaray. 
-
-I'm working on this.... It will be ready in next few weeks...Stay tuned...
+Welcome to the version O.1 of my Component Libaray. Please review and suggest if any changes are required.

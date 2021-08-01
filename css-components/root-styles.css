@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+@import "avatar.css";
+@import "button.css";
+@import "docs.css";
+@import "alert.css";
+@import "badge.css";
+@import "card.css";
+@import "input.css";
+@import "navbar.css";
+@import "list.css";
+@import "grid.css";
+@import "text-utilities.css";
+@import "image.css";
+@import "modal.css";
+@import "toast.css";
+
+:root {
+    --value-one: 1;
+    --zero-pixels: 0px;
+    --zero-percent: 0%;
+    --light-gray-color: #f2f2f2;
+    --dark-gray-color: #939599;
+    --primary-color: #4D774E;
+    --small-padding: 2rem;
+    --border-color-dark: black;
+
+    /* space in percentages*/
+    --space-five-percent: 5%;
+    --space-ten-percent: 10%;
+    --space-fifteen-percent: 15%;
+    --space-twenty-percent: 20%;
+    --space-twentyfive-percent: 25%;
+    --space-thirty-percent: 30%;
+    --space-hundredByThirty-percent: 33.33%;
+    --space-fifty-percent: 50%;
+    --space-eighty-percent: 80%;
+    --space-ninty-percent: 90%;
+    --space-hundred-percent: 100%;
+    /* space in rem */
+    --space-one-rem: 1rem;
+    --space-two-rem: 2rem;
+    --space-three-rem: 3rem;
+    --space-four-rem: 4rem;
+    --space-very-small-rem: .1rem;
+    --space-very-small-plus-rem: .12rem;
+    --space-small-rem: .2rem;
+    --space-medium-rem: .5rem;
+    /* color */
+    --color-blue: #0284C7;
+    --color-green-primary: #16A34A;
+    --color-green-secondary: #8ebd4c;
+    --color-green-tertiary: #164A41;
+    --color-yellow: #F1B24A;
+    --color-red: #E13434;
+    --color-white: white;
+    --color-black: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}

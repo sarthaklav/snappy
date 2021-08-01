@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snappy</title>
+    <link rel="stylesheet" href="/css-components/root-styles.css ">
+
+</head>
+
+<body class="doc-body">
+    <!--
+    This is navigation bar in the header section of the page 
+    -->
+    <nav class="nav header">
+        <a href="../index.html" class="navbar-brand">Snappy</a>
+        <div class="navbar-collapse">
+            <ul class="navbar-nav-list">
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="">Docs</a>
+                </li>
+            </ul>
+            <form action="" class="navbar-form">
+                <input class="nav-input" type="search" name="" id="" placeholder="">
+                <button class="btn btn-light submit-btn" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+
+    <aside class="aside aside-navbar">
+        <a href="#getting-started" class="aside-link">Getting started</a>
+        <a href="#avatar" class="aside-link">Avatar</a>
+        <a href="#alert" class="aside-link">Alert</a>
+        <a href="#badge" class="aside-link">Badge</a>
+        <a href="#button" class="aside-link">Button</a>
+        <a href="#card" class="aside-link">Card</a>
+        <a href="#image" class="aside-link">Image</a>
+        <a href="#input" class="aside-link">Input</a>
+        <a href="#list" class="aside-link">List</a>
+        <a href="#nav" class="aside-link">Navigation</a>
+        <a href="#modal" class="aside-link">Model</a>
+        <a href="#simplified-grid" class="aside-link">Simplified Grid</a>
+        <a href="#text-utilities" class="aside-link">Text Utilities</a>
+        <a href="#toast" class="aside-link">Toast </a>
+    </aside>
+    <main class="main ">
+        <div id="getting-started" class="main-container">
+            <h3 class="main-container-heading">Getting started</h3>
+            <div class="main-container-components">
+                <h4>Go through the documentation and copy paste the respective code.
+                    To know more about getting started visit <a style="color: var(--dark-gray-color);"
+                    href="/index.html">home</a> page..</h4>
+            </div>
+
+        </div>
+
+        <!--
+            Avatar
+        -->
+        <div id="avatar" class="main-container">
+            <h3 class="main-container-heading">Avatar</h3>
+            <div class="main-container-components">
+                <div class="avatar-small">
+                    <img class="avatar-round" src="/images/avatar-female2.png" alt="Avatar" />
+                    <h5>Small round</h5>
+                </div>
+                <div class="avatar-medium">
+                    <img class="avatar-round" src="/images/avatar-female2.png" alt="Avatar" />
+                    <h5>Medium Round</h5>
+                </div>
+                <div class="avatar-large">
+                    <img class="avatar-round" src="/images/avatar-female2.png" alt="Avatar" />
+                    <h5>Large Round</h5>
+                </div>
+            </div>
+            <div class="code-shown">
+                <iframe src="https://carbon.now.sh/embed/f7OghkO9lTdJIhXpFsyd"
+                    style="width: 808px; height: 348px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <div class="main-container-components">
+                <div class="avatar-small">
+                    <img class="avatar-box" src="/images/avatar.jpeg" alt="Avatar" />
+                    <h5>Small</h5>
+                </div>
+                <div class="avatar-medium">
+                    <img class="avatar-box" src="/images/avatar.jpeg" alt="Avatar" />
+                    <h5>Medium</h5>
+                </div>
+                <div class="avatar-large">
+                    <img class="avatar-box" src="/images/avatar.jpeg" alt="Avatar" />
+                    <h5>Large</h5>
+                </div>
+            </div>
+            <div class="code-shown">
+                <iframe src="https://carbon.now.sh/embed/bMhOgm1TexnGz4mLh3RP"
+                    style="width: 724px; height: 348px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+        <!--
+            Alert
+        -->
+        <div id="alert" class="main-container">
+            <h3 class="main-container-heading">Alert</h3>
+            <div class="main-container-components">
+                <div class="alert-div">
+                    <button id="show-alert-timeout" class="btn btn-primary">Show alert</button>
+                    <div class="alert-primary-timeout hidden-alert" id="alert-message-timeout">
+                        <p>This alert will close in 3 seconds...</p>
+
+                    </div>
+
+                    <button id="show-alert-cancel" class="btn btn-cancel">Show alert</button>
+                    <div class="alert-cancel hidden-alert" id="alert-message-cancel">
+                        <p>This alert will close when you click here
+                            <span id="close-alert-cancel" class="alert-close-btn">&times;</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="code-shown">
+                <iframe src="https://carbon.now.sh/embed/TVPurICW2yZrD0xee7wP"
+                    style="width: 791px; height: 402px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+        <!--
+            Badges
+        -->
+        <div id="badge" class="main-container">
+            <h3 class="main-container-heading">Badge</h3>
+            <div class="main-container-components">
+                <div>
+                    <h5>Badge on avatar</h5>
+                    <div class="avatar-large badge-applied-on">
+                        <img class="avatar-round" src="/images/avatar-female2.png">
+                        <span class="badge-avatar"></span>
+                    </div>
+                </div>
+                <div>
+                    <h5>Badge on icon</h5>
+                    <div class="icon-medium badge-applied-on">
+                        <img class="" src="/images/icon-mail.png">
+                        <span class="badge-icon">5</span>
+                    </div>
+                </div>
+            </div>
+            <iframe src="https://carbon.now.sh/embed/j8MtyOUlWrjzpoLtyzEI"
+                style="width: 614px; height: 330px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+        <!--
+            Button components are placed below
+        -->
+        <div id="button" class="main-container">
+            <h3 class="main-container-heading">Button</h3>
+            <div class="main-container-components">
+                <button class="btn btn-primary">Primary </button>
+                <button class="btn btn-secondary">Secondary </button>
+                <button class="btn btn-success">Success</button>
+                <button class="btn btn-cancel">Cancel </button>
+                <button class="btn btn-warning">Warning</button>
+                <button class="btn btn-light">Light</button>
+                <button class="btn btn-dark">Dark</button>
+                <a class="link link-primary" href="#"> Primary link </a>
+                <a class="link link-secondary" href="#">Secondary link</a>
+            </div>
+            <div class="code-shown">
+                <iframe src="https://carbon.now.sh/embed/gRLWzyNE60stHSZ87wxH"
+                    style="width: 639px; height: 348px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+
+        <!--
+            Cards components are placed below
+        -->
+        <div id="card" class="main-container">
+            <h3 class="main-container-heading">Cards</h3>
+            <div class="main-container-components">
+                <div class="card">
+                    <h3>Card heading </h3>
+                    <div>
+                        <img class="card-img" src="../images/card-image.jpeg">
+                    </div>
+
+                    <div class="card-details">
+                        <h4>Card sub heading</h4>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                            Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                            unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            It has survived not only five centuries, but also the leap into electronic typesetting,
+                            remaining essentially unchanged.
+
+                        </p>
+                    </div>
+                    <button class="btn btn-primary">Primary button</button>
+                    <button class="btn btn-light">Light button</button>
+                </div>
+                <div class="card">
+                    <h3>Card with text overlay</h3>
+                    <div class="card-img-container badge-applied-on">
+                        <img class="card-img" src="../images/card-image.jpeg">
+                        <p class="card-text-over-card-img"> Out of stock </p>
+                    </div>
+                    <div class="card-details">
+                        <h4>
+                            Card sub heading
+                        </h4>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book.
+                        </p>
+                    </div>
+                    <button class="btn btn-primary">Primary button</button>
+                    <button class="btn btn-light">Light button</button>
+                </div>
+                <div class="card">
+                    <h3>Card with badge </h3>
+                    <div class="card-img-container badge-applied-on">
+                        <img class="card-img" src="../images/card-image.jpeg">
+                        <span class="badge-on-card">100% Organic</span>
+                    </div>
+                    <div class="card-details">
+                        <h4>
+                            Card sub heading
+                        </h4>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book.
+                        </p>
+                    </div>
+                    <button class="btn btn-primary">Primary button</button>
+                    <button class="btn btn-light">Light button</button>
+                </div>
+
+            </div>
+            <div class="code-shown">
+                <iframe src="https://carbon.now.sh/embed/QWBFMl7OvVVyCUs428J8"
+                    style="width: 1024px; height: 1194px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <div class="main-container-components">
+                <div class="card">
+                    <h3>Card with dismiss</h3>
+                    <div class="badge-applied-on">
+                        <img src="../images/card-image.jpeg" alt="">
+                        <button class="card-close-btn">x</button>
+                    </div>
+                    <div class="card-details">
+                        <h3>Subheading</h3>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s.
+                        </p>
+                    </div>
+                    <button class="btn btn-primary">Primary button</button>
+                    <button class="btn btn-light">Light button</button>
+                </div>
+                <div class="card card-shadow">
+                    <h3>Card with shadow</h3>
+                    <div>
+                        <img src="../images/card-image.jpeg" alt="">
+                    </div>
+                    <div class="card-details">
+                        <h3>Subheading</h3>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s.
+                        </p>
+
+                    </div>
+                    <button class="btn btn-primary">Primary button</button>
+                    <button class="btn btn-light">Light button</button>
+
+                </div>
+                <div class="card">
+                    <h3>Text only card</h3>
+                    <div class="card-details">
+                        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                            Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                            unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            It has survived not only five centuries, but also the leap into electronic typesetting,
+                            remaining essentially unchanged.
+                            <br>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="code-shown">
+                <iframe src="https://carbon.now.sh/embed/2toPGOO4hr8d9yPRDsSO"
+                    style="width: 1024px; height: 1032px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <div class="main-container-components">
+                <div class="card card-horizontal">
+                    <div class="card-image-container-horizontal">
+                        <img src="../images/card-image.jpeg" alt="">
+                        <div>
+                            <button class="btn btn-primary">Primary button</button>
+                            <button class="btn btn-light">Light button</button>
+                        </div>
+
+                    </div>
+                    <div>
+                        <h3>Horizontal card</h3>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="code-shown">
+                <iframe src="https://carbon.now.sh/embed/tahRJpQrzGovQahGiLro"
+                    style="width: 1024px; height: 492px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+        <!--
+            Image component is placed below
+        -->
+        <div id="image" class="main-container">
+            <h3 class="main-container-heading">Image</h3>
+            <div class="main-container-components">
+                <div>
+                    <img class="image" src="https://www.testronixinstruments.com/backend/uploads/blog/1610451062.jpg"
+                        alt="Responsive image">
+                </div>
+            </div>
+            <iframe src="https://carbon.now.sh/embed/9ONDckqhTvpqYHAvF9TE"
+                style="width: 1002px; height: 258px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+        <!--
+            Input component below
+        -->
+        <div id="input" class="main-container">
+            <h3 class="main-container-heading">Input</h3>
+            <div class="main-container-components ">
+
+                <form action="" class="form">
+                    <div class="form-div">
+                        <label class="form-div-label" for="first-name">Name:</label>
+                        <input class="form-div-input half-length-input" type="text" name="" id="" placeholder="Name">
+
+                    </div>
+                    <div class="form-div">
+                        <label class="form-div-label" for="email">Email:</label>
+                        <input class="form-div-input" type="email" name="" id="" placeholder="Email">
+                    </div>
+                    <div class="form-div">
+                        <label class="form-div-label" for="mobile">Mobile:</label>
+                        <input class="form-div-input" type="number" name="" id="" placeholder="Mobile Number">
+                    </div>
+                    <div class="form-div">
+                        <label class="form-div-label" for="date-of-birth">Date of birth:</label>
+                        <input class="form-div-input" type="date" name="" id="" placeholder="Date of Birth">
+                    </div>
+                    <div class="form-div">
+                        <label class="form-div-label" for="password">Password:</label>
+                        <input class="form-div-input" type="password" name="" id="" placeholder="Password">
+                    </div>
+                    <div class="form-div" style="display: flex; flex-direction: row;">
+                        <label class="form-div-label form-div-item-div" for="gender">Gender:</label>
+                        <div>
+                            <input type="checkbox" name="male" id="">
+                            <label for="male">Male</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="female" id="">
+                            <label for="female">Female</label>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="form-div-label" for="state">State:</label>
+                        <select class="form-div-input" name="state" id="state" class="form-control">
+                            <option value="" disabled selected>--Select your state--</option>
+                            <option value="Andhra Pradesh">Andhra Pradesh</option>
+                            <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                            <option value="Assam">Assam</option>
+                            <option value="Bihar">Bihar</option>
+                            <option value="Chandigarh">Chandigarh</option>
+                            <option value="Chhattisgarh">Chhattisgarh</option>
+                            <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+                            <option value="Daman and Diu">Daman and Diu</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="Lakshadweep">Lakshadweep</option>
+                            <option value="Puducherry">Puducherry</option>
+                            <option value="Goa">Goa</option>
+                            <option value="Gujarat">Gujarat</option>
+                            <option value="Haryana">Haryana</option>
+                            <option value="Himachal Pradesh">Himachal Pradesh</option>
+                            <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                            <option value="Jharkhand">Jharkhand</option>
+                            <option value="Karnataka">Karnataka</option>
+                            <option value="Kerala">Kerala</option>
+                            <option value="Madhya Pradesh">Madhya Pradesh</option>
+                            <option value="Maharashtra">Maharashtra</option>
+                            <option value="Manipur">Manipur</option>
+                            <option value="Meghalaya">Meghalaya</option>
+                            <option value="Mizoram">Mizoram</option>
+                            <option value="Nagaland">Nagaland</option>
+                            <option value="Odisha">Odisha</option>
+                            <option value="Punjab">Punjab</option>
+                            <option value="Rajasthan">Rajasthan</option>
+                            <option value="Sikkim">Sikkim</option>
+                            <option value="Tamil Nadu">Tamil Nadu</option>
+                            <option value="Telangana">Telangana</option>
+                            <option value="Tripura">Tripura</option>
+                            <option value="Uttar Pradesh">Uttar Pradesh</option>
+                            <option value="Uttarakhand">Uttarakhand</option>
+                            <option value="West Bengal">West Bengal</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="form-div-label" for="Address">Address:</label>
+                        <textarea class="form-div-textarea" name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <input class="btn btn-cancel" type="reset" value="Reset">
+                        <button class="btn btn-secondary submit-btn" type="submit">Submit</button>
+                    </div>
+                </form>
+
+            </div>
+            <div class="code-shown">
+                <iframe src="https://carbon.now.sh/embed/Unc8FBraC9hpi0HkddTV"
+                    style="width: 985px; height: 1068px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+        <!--
+            List groups are placed below
+        -->
+        <div id="list" class="main-container">
+            <h3 class="main-container-heading">List group</h3>
+            <div>
+                <ul class="list-group list-group-border ">
+                    <li>List item one</li>
+                    <li>List item two</li>
+                    <li>List item three</li>
+                    <li>List item four</li>
+                    <li>List item five</li>
+                </ul>
+            </div>
+            <div class="code-shown">
+                <iframe src="https://carbon.now.sh/embed/mEl19Ayw4sX3PKIuqJrE"
+                    style="width: 504px; height: 312px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <div>
+                <ul class="list-group list-group-borderless">
+                    <li>List item one</li>
+                    <li>List item two</li>
+                    <li>List item three</li>
+                    <li>List item four</li>
+                    <li>List item five</li>
+                </ul>
+            </div>
+            <div class="code-shown">
+                <iframe src="https://carbon.now.sh/embed/ehMAjYU4eHeXjbp18EfS"
+                    style="width: 530px; height: 312px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+        <!--
+          navigation components are placed below
+        -->
+        <div id="nav" class="main-container">
+            <h3 class="main-container-heading">Navigation</h3>
+            <div class="main-container-components">
+                <nav class="nav">
+                    <a href="#" class="navbar-brand">SNAPPY</a>
+                    <div class="navbar-collapse">
+                        <ul class="navbar-nav-list">
+                            <li>
+                                <a href="">Home</a>
+                            </li>
+                            <li>
+                                <a href="">Docs</a>
+                            </li>
+                        </ul>
+                        <form action="" class="navbar-form">
+                            <input class="nav-input" type="search" name="" id="" placeholder="">
+                            <button class="btn btn-light submit-btn" type="submit">Search</button>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+            <div class="code-shown">
+                <iframe src="https://carbon.now.sh/embed/luSZ9y7pHDN8t1xbq1jt"
+                    style="width: 842px; height: 492px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+
+        <!--
+            modal component is placed below
+        -->
+        <div id="modal" class="main-container">
+            <h3 class="main-container-heading">Modal</h3>
+            <div class="main-container-components">
+                <button id="openModalBtn" class="btn btn-light">Open modal</button>
+                <dialog id="dialogBox">
+                    <form action="" class="form">
+                        <div>
+                            <label class="form-div-label" for="Address">Address:</label>
+                            <textarea class="form-div-textarea" name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        <div>
+                            <input class="btn btn-cancel" type="reset" value="Reset">
+                            <button id="closeDialogBox" class="btn btn-secondary submit-btn"
+                                type="submit">Submit</button>
+                        </div>
+                    </form>
+                </dialog>
+            </div>
+            <div class="code-shown">
+                <iframe src="https://carbon.now.sh/embed/SnW7H6tPIGhdZVg3FubC"
+                    style="width: 1018px; height: 420px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+        </div>
+        <!--
+            grid : simplified grid component is placed below
+        -->
+        <div id="simplified-grid" class="main-container">
+            <h3 class="main-container-heading">Simplified Grid</h3>
+            <div class="main-container-components">
+                <div class="grid grid-row-2">
+                    <div class="grid-item">
+                        Half width grid
+                    </div>
+                    <div class="grid-item">
+                        Half width grid
+                    </div>
+                </div>
+
+            </div>
+            <div class="code-shown">
+                <iframe src="https://carbon.now.sh/embed/0DY17jeVoRjeRMg1ad2k"
+                    style="width: 555px; height: 258px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <div class="main-container-components">
+                <div class="grid grid-row-3">
+                    <div class="grid-item">
+                        First inline grid in row
+                    </div>
+                    <div class="grid-item">
+                        Second inline grid in row
+                    </div>
+                    <div class="grid-item">
+                        Third inline grid in row
+                    </div>
+                </div>
+            </div>
+            <div class="code-shown">
+                <iframe src="https://carbon.now.sh/embed/yAkXssVb18dDLasncgDB"
+                    style="width: 656px; height: 276px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <div class="main-container-components">
+                <div class="grid grid-mix-3">
+                    <div class="grid-item">
+                        Full width grid
+                    </div>
+                    <div class="grid grid-row-2">
+                        <div class="grid-item">
+                            Half width grid
+                        </div>
+                        <div class="grid-item">
+                            Half width grid
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="code-shown">
+                <iframe src="https://carbon.now.sh/embed/nBAuKI9b5blmUJWu6vcq"
+                    style="width: 606px; height: 312px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+        <!--
+            Text Utilities are placed below
+        -->
+        <div id="text-utilities" class="main-container">
+            <h3 class="main-container-heading">Text Utilities</h3>
+            <div class="main-container-components">
+                <div class="text-utilities">
+                    <p class="text-justify">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                        and more recently with desktop publishing software like Aldus PageMaker including versions of
+                        Lorem Ipsum.
+                    </p>
+                </div>
+            </div>
+            <div class="code-shown">
+                <iframe src="https://carbon.now.sh/embed/vkhsdkbvXfJlGoaeaVGt"
+                    style="width: 555px; height: 240px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <div class="main-container-components">
+                <div class="text-utilities ">
+                    <p class="text-left">Left aligned text in the container</p>
+                    <p class="text-center">Center aligned text in the container</p>
+                    <p class="text-right">Right aligned text in the container</p>
+                </div>
+            </div>
+            <div class="code-shown">
+                <iframe src="https://carbon.now.sh/embed/5aiFlTYdTLwS1oBN9xIv"
+                    style="width: 715px; height: 276px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <div class="main-container-components">
+                <div class="text-utilities">
+                    <p class="text-bold">This is bold text.</p>
+                    <p class="text-normal">This is normal text.</p>
+                    <p class="text-light">This is light text.</p>
+                    <p class="text-italic">This is italic text</p>
+                </div>
+            </div>
+            <div class="code-shown">
+                <iframe src="https://carbon.now.sh/embed/gh4xwnBDvE8GSFLXl98B"
+                    style="width: 580px; height: 294px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <div class="main-container-components">
+                <div class="text-utilities">
+                    <p class="text-lowercase">THIS IS LOWERCASE TEXT.</p>
+                    <p class="text-uppercase">this is uppercase text.</p>
+                    <p class="text-capitlized">this is capitalized text.</p>
+                </div>
+            </div>
+            <div class="code-shown">
+                <iframe src="https://carbon.now.sh/embed/Ro3fsAFfs1FOsX9Nt9G9"
+                    style="width: 656px; height: 276px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+        </div>
+        <!--
+            Toast is placed below
+        -->
+        <div class="main-container">
+            <h3 class="main-container-heading">Toast</h3>
+            <div class="main-container-components">
+                <button id="toast" class="btn btn-light">Show toast</button>
+                <div id="toast-msg" class="toast">
+                    <p>This text will be shown as toaster message.</p>
+                    <p>It will be visible for 4 seconds only.</p>
+                </div>
+            </div>
+            <iframe src="https://carbon.now.sh/embed/d3ntvLCcCJ1DkMRkIonm"
+                style="width: 664px; height: 276px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <div>
+                <!-- <p>Made with by Sarthak</p> -->
+            </div>
+            <ul>
+                <li> <a href="">github </a></li>
+                <li><a href="">twitter</a></li>
+                <li><a href="">linkedin</a></li>
+            </ul>
+        </div>
+        <script src="../index.js" type="text/javascript"></script>
+    </footer>
+</body>
+
+</html>

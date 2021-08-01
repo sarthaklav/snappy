@@ -1,0 +1,66 @@
+.btn {
+    text-decoration: none;
+    border: none;
+    padding: var(--space-medium-rem) var(--space-one-rem);
+    margin: var(--space-medium-rem);
+    border-radius: var(--space-medium-rem);
+}
+
+.btn-primary {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    border: var(--space-very-small-plus-rem) solid var(--color-blue);
+}
+
+.btn-secondary {
+    background-color: var(--color-green-primary);
+    color: var(--color-white);
+    border: var(--space-very-small-plus-rem) solid var(--color-green-primary);
+}
+
+.btn-success {
+    background-color: var(--color-green-secondary);
+    color: var(--color-black);
+    border: var(--space-very-small-plus-rem) solid var(--color-green-secondary);
+}
+
+.btn-cancel {
+    background-color: var(--color-red);
+    border: var(--space-very-small-plus-rem) solid var(--color-red);
+    color: var(--color-white);
+}
+
+.btn-warning {
+    background-color: var(--color-yellow);
+    border: var(--space-very-small-plus-rem) solid var(--color-yellow);
+}
+
+.btn-dark {
+    background-color: var(--color-black);
+    border: var(--space-very-small-plus-rem) solid var(--color-black);
+    color: var(--color-white);
+}
+
+.btn-light {
+    border: var(--space-very-small-plus-rem) solid var(--color-black);
+    color: var(--color-black);
+}
+
+.link {
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: var(--space-medium-rem) var(--space-one-rem);
+    border-radius: var(--space-medium-rem);
+    border: var(--space-very-small-plus-rem) solid var(--color-green-tertiary);
+    margin: var(--space-medium-rem);
+}
+
+.link-primary {
+    background-color: var(--color-green-tertiary);
+    color: var(--color-white);
+
+}
+
+.link-secondary {
+    color: var(--color-green-tertiary);
+}
